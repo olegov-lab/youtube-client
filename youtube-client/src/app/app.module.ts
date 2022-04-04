@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import AppRoutingModule from './app-routing.module';
-import AppComponent from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SearchComponent } from './search/search.component';
 import { SearchItemComponent } from './search/search-item/search-item.component';
@@ -25,4 +25,6 @@ import { FiltersComponent } from './search/search-results/filters/filters.compon
   providers: [],
   bootstrap: [AppComponent],
 })
-export default class AppModule { }
+export class AppModule { }
+
+export default AppModule;

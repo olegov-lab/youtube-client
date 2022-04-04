@@ -5,10 +5,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './search-item.component.html',
   styleUrls: ['./search-item.component.scss'],
 })
-export default class SearchItemComponent implements OnInit {
+export class SearchItemComponent implements OnInit {
   constructor() { }
 
   /* eslint class-methods-use-this: ["error", { "exceptMethods": ["ngOnInit"] }] */
   ngOnInit(): void {
   }
 }
+
+export default SearchItemComponent;
