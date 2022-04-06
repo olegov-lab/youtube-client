@@ -18,13 +18,8 @@ import { FiltersComponent } from './search/search-results/filters/filters.compon
     SearchResultsComponent,
     FiltersComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
-
-export default AppModule;
+export class AppModule {}

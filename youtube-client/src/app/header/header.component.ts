@@ -6,11 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
-  constructor() { }
+  constructor() {}
 
   /* eslint class-methods-use-this: ["error", { "exceptMethods": ["ngOnInit"] }] */
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 }
-
-export default HeaderComponent;
